@@ -17,12 +17,12 @@ function Header({ location }: RouteComponentProps) {
         isHome: false,
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const changeActiveLink = (
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
   ) => {
-    const { pathname } = location;
     const path = event.currentTarget.getAttribute("href");
     if (path === "/") {
       setActivePage({
