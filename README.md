@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Link to netlify
 
-https://zealous-shannon-3fa57a.netlify.app/
+https://quirky-newton-af4fa8.netlify.app/
 
 ## Available Scripts
 
