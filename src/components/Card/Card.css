@@ -31,7 +31,7 @@
   position: absolute;
   width: 14px;
   height: 19px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 14 19'%3E%3Cdefs/%3E%3Cpath stroke='%23000' stroke-width='2' d='M6.3822 12.7137L1 16.9425V1h12v15.9425l-5.3822-4.2288L7 12.2283l-.6178.4854z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 14 19'%3E%3Cdefs/%3E%3Cpath stroke='%23fff' stroke-width='2' d='M6.3822 12.7137L1 16.9425V1h12v15.9425l-5.3822-4.2288L7 12.2283l-.6178.4854z'/%3E%3C/svg%3E");
   top: 8%;
   right: 4%;
   cursor: pointer;
@@ -45,5 +45,19 @@
 }
 
 .card__mark_active {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 14 19'%3E%3Cdefs/%3E%3Cpath fill='%23000' d='M0 1c0-.5523.4477-1 1-1h12c.5523 0 1 .4477 1 1v18l-7-5.5L0 19V1z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 14 19'%3E%3Cdefs/%3E%3Cpath stroke='%23ccc' fill='%23000' stroke-width='2' d='M6.3822 12.7137L1 16.9425V1h12v15.9425l-5.3822-4.2288L7 12.2283l-.6178.4854z'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    max-width: 224px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    max-width: 288px;
+    height: 198px;
+  }
 }

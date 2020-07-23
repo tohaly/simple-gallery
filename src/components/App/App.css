@@ -34,3 +34,16 @@
   margin-bottom: 24px;
   animation: spin-loader 0.75s infinite linear;
 }
+
+@media screen and (max-width: 1024px) {
+  .app {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
